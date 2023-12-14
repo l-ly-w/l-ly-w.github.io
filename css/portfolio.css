@@ -1,0 +1,243 @@
+.margin{
+  object-fit: cover;
+  margin-left: 20px;
+}  
+
+.workPhotos{
+  min-width: 305px;
+  max-height:305px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.mainvideo {
+  width: 1280px;
+  height: 630px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.title{
+  font-weight: bolder;
+  font-size: 72px;
+  font-family: 'Syne', sans-serif;
+  text-align: left;
+  margin-left: 20px;
+  border: 0;
+  padding: 180px 0px;
+
+}
+
+.subtitle{
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+  text-align: top;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: 'Syne', sans-serif;
+}
+
+.subtext{
+  font-weight: 0;
+  font-family: 'Syne', sans-serif;
+}
+
+
+.graphicDesign{
+  width:630px;
+  height:auto;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+/* Photography Page */
+.sqimages {
+  width: 410px;
+  height: 410px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.wimages {
+  width: 846px;
+  height: 413px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.himages {
+  width: 413px;
+  height: 846px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.mimages {
+  width: 846px;
+  height: 1026px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* Videography Page */
+.videos {
+  width: 630px;
+  height: 403px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Syne', sans-serif;
+}
+
+td {
+  margin: 0px;
+  padding: 0;
+}
+
+img {
+  margin:0px;
+  padding: 0px;
+}
+
+.col-md-6{
+  margin:0px;
+  padding:0px;
+}
+
+.vid-description {
+  margin-left: 20px;
+  width: 630px;
+}
+
+ 
+h5 {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+  padding: 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+/* Carousel image sizes */
+ #photoCarousel .carousel-item img {
+  width: 100%; /* responsive width */
+  height: 600px; /* keep the height fixed height */
+  object-fit: cover; /* don't want the image to be distorted */
+  margin-bottom: 20px;
+}
+
+/* Carousel move up down */
+.carousel-item-next.carousel-item-left,
+.carousel-item-prev.carousel-item-right {
+-webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+ }
+ .carousel-item-next,
+ .active.carousel-item-right {
+   -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+ }
+ .carousel-item-prev,
+ .active.carousel-item-left {
+ -webkit-transform: translate3d(0, +100%, 0);
+        transform: translate3d(0, +100, 0);
+ }
+
+
+ /*Navigation Bar*/
+.navbar {
+  padding: 0;
+  color:#000000;
+  font-size: large;
+}
+
+
+.navbar-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-family: 'Syne', sans-serif;
+  font-size: large;
+}
+
+
+/* Footer Section */
+#footer {
+  padding: 0;
+  border: 0;
+  margin: 40px 20px;
+  text-align: right;
+}
+
+.social-icon {
+  margin: 0px 20px;
+  color: #000000;
+}
+
+
+/* links */
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(95,177,197);
+}
+
+a:active {
+  color: rgb(39,97,111);
+}

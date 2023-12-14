@@ -1,0 +1,49 @@
+.title{
+  margin-left: 20px;
+  padding: 20px 0px;
+  font-weight: 500;
+}
+
+.graphicDesigns{
+  width:360px;
+  height:auto;
+}
+
+.sqimages {
+  width: 413px;
+  height: 413px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.wimages {
+  width: 846px;
+  height: 413px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.himages {
+  width: 413px;
+  height: 846px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.mimages {
+  width: 846px;
+  height: 1026px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  margin:0px;
+  padding: 0px;
+}
